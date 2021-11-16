@@ -1,0 +1,29 @@
+body {
+  background: black;
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+textarea {
+  background: #3f093f;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 22px;
+  color: rgb(207, 207, 18);
+}
+
+.preview {
+  padding: 20px;
+  background-color:  rgb(207, 207, 18);
+  color: #3f093f;
+}
